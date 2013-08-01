@@ -1,0 +1,16 @@
+{
+   "content_scripts": [ {
+      "css": [ "github.css" ],
+      "matches": [ "https://github.com/*" ]
+   } ],
+   "description": "This extension hides pull requests and other information in your GitHub feed.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnn9LZOtpXq6svPX1cQceXfTe4TAnx04WjRe44ahHMCmBzkTXwYqYiiwiZlDDE+YfmvzjySGRtHRrJVoI5d4sy0rXRzHp2XB0DjldTRVBO7yTc2nSXEuaYhN+i0kr76rMu4t/a0Ib95GAclChPdpqB4heaFtDnWcrm4+nR5s3teQIDAQAB",
+   "manifest_version": 2,
+   "name": "GitHub Feed Filter",
+   "permissions": [ "tabs", "https://github.com/*" ],
+   "version": "1.0",
+   "icons": {
+     "48": "icon_48.png", 
+     "128": "icon_128.png"  
+   } 
+}
